@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,59 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  height:600px;
+  width:800px;
+  margin:0 auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.question-margin{
+  width:auto;
+  height: auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.questions{
+  background-color: antiquewhite;
+  color:black;
+  border: 1px solid black;
+  border-radius: 5px;
+} 
+.answer-margin{
+  width:auto;
+  height:auto;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+.answers{
+  background-color:palevioletred;
+  color:black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+ .icon-logo{
+   height:45px;
+   width:50px;
+   border-radius: 50%;
+ }
+ .microphone-question-container{
+   text-align: center;
+   background: url(./assets/sound-waves.gif) no-repeat center center;  
+ }
+ .microphone-answer-container{
+   text-align: center;
+  background: url(./assets/sound-waves-off.gif) no-repeat center center;  
+}
+ .microphone{
+   height:60px;
+   width:60px;
+   border-radius: 50%;
+   border:1px solid black;
+  
+ }
